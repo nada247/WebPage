@@ -1,0 +1,119 @@
+ body{
+            margin: 0;
+            font-family: "Roboto", sans-serif;
+        }
+
+    .header{
+        background-color: #8d32de;
+        display: flex; 
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 45px;
+        color: white;
+    }
+
+    .logo{
+        width: 100px;
+    }
+
+    .headerLinks a {
+        color: white;
+        border-radius: 15px;
+        padding: 3px 15px ;
+    }
+
+    .headerLinks a:hover {
+        background-color:#c2a5db ;
+    }
+
+    .btn {
+        background-color:#c2a5db ;
+        border-radius: 15px;
+        color: #000;
+        border: none;
+        padding: 3px 15px ;
+    }
+
+    .btn:hover {
+        background-color:#99929e ;
+    }
+
+    .landingPage{
+        background-color: #8d32de;
+        display: flex; 
+        justify-content: space-between;
+        align-items: center;
+        padding: 25px 50px;
+        color: white;
+        border-radius: 0 0 50px 50px;
+    }
+
+    .landingPageLeftSection{
+        width: 600px;
+    }
+
+
+    .landingPageSearch input{
+        border-radius: 50px ;
+        border: none;
+        outline: none;
+        height: 30;
+        padding: 7px 10px;
+    }
+
+    .landingPageSearch button{
+        position: absolute;
+        left: 200px;
+        height: 30px;
+    }
+
+    .landingPageImage img{
+        border-radius: 20px;
+        width: 300px;
+    }
+
+    .trendingContainer{
+        padding: 25px 50px ;
+    }
+
+    .trendingContainer span{
+        color: #7832aa;
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+
+    .trendingHeader{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .trendingHeader h1{
+        margin-top: 0;
+    }
+
+    .trendingCard{
+        display: flex;
+        gap: 12px;
+    }
+
+    .card{
+        width: 300px;
+        background-color: #dadada;
+        border-radius: 20px;
+    }
+
+    .card .thumb {
+        border-radius: 20px 20px 0 0;
+    }
+
+    .cardInfo{
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 25px;
+        align-items: center;
+    }
+
+    .cardInfo img{
+        width: 50px;
+    }
